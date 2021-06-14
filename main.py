@@ -6,9 +6,6 @@ import sys
 import json
 from time import sleep
 
-#FALTA SOMENTE FAZER A FUNÇÃO DO PROGRAMA NEGAR A TRANSFERENCIA QUANDO A CONTA QUE ESTÁ ENVIANDO
-#TEM MENOS DINHEIRO QUE O QUE ESTÁ ENVIANDO.
-
 
 class Aplicacao1(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
