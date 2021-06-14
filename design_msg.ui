@@ -1,0 +1,36 @@
+?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mensagemDeposito</class>
+ <widget class="QMainWindow" name="mensagemDeposito">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>217</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DEPOSITADO!</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 255, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_Mensagem">
+      <property name="styleSheet">
+       <string notr="true">font: 75 16pt &quot;Reckoner Bold&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
